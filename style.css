@@ -1,4 +1,12 @@
-nav{
+
+.plannav{
+    /*border-bottom: 7.5px solid;
+    animation: rainbow2 5s linear;
+    animation-iteration-count: infinite;
+    background:rgb(26, 26, 26);
+    border-top: 7.5px solid;*/
+}
+.homenav{
     margin: auto;
     line-height: 80px;
     display: flex;
@@ -43,7 +51,17 @@ nav{
     font-size: 20px;
     color: #fff;
 }
+.plan{
+    margin-left: 5%;
+    width: 300px;
+    height: 300px;
+}
 .section1{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.section3{
     margin: auto;
     display: flex;
     margin-bottom: 50px;
@@ -55,6 +73,7 @@ nav{
     margin-left: 5%
 }
 .kolom{
+    margin-left: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -74,6 +93,7 @@ nav{
     color: #fff;
 }
 .kolom .deskripsi4{
+    font-weight: bold;
     font-size: 20px;
     color: #fff;
 }
@@ -209,8 +229,8 @@ body{
     background: rgb(26, 26, 26);
 }
 .logo{
-    width: 12%;
-    height: 12%;
+    width: 15%;
+    height: 15%;
 }
 .navbar h1::after{
     content: '';
