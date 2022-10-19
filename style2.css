@@ -214,14 +214,97 @@ b.btn2{
 }
 .navbar hr{
     background: #7f04c2;
-    color: #7f04c2
+    color: #7f04c2;
 } 
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+.login{
+    margin-top: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: #383838;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.login label{
+    margin-left: 3%;
+}
+.login form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.login input{
+    margin-left: 3%;
+}
+.txt_field label{
+    transition: .5s;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: absolute;
+    color: #adadad;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: none;
+    transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+    top: -5px;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width: 100%;
+}
+.txt_field input{
+    font-weight: bold;
+    color: #fff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    background: none;
+    outline: none;
+}
+.txt_field{
+    border-color: #adadad;
+    position: relative;
+    border-bottom: 3px solid;
+}
+h1{
+    margin-bottom: 2%;
+    padding: 0 0 20px 0;
+    border-bottom: 5px solid;
+    animation: rainbow2 5s linear;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+}
 body{
+    color: white;
     background: rgb(26, 26, 26);
 }
 .logo{
