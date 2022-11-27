@@ -101,7 +101,17 @@ p{
     margin: 10px 0px 10px 0px;
     padding: 10px 0px 10px 0px;
 }
-a.btn0{
+input[type="submit"]{
+    margin-top: 5px;
+    width: 95%;
+    height: 40px;
+
+}
+p2{
+    margin-left: 2%;
+}
+.btn0{
+    border: none;
     font-weight: bold;
     margin-top: 20px;
     padding: 8px 10px 8px 10px;
@@ -111,7 +121,18 @@ a.btn0{
     color: #fff;
     cursor: pointer;
 }
-
+.forgotpass a.btn0{
+    margin-left: 17%;
+    margin-top: 5%;
+}
+.forgotpass{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.signup p{
+    margin-left: 2%;
+    margin-top: 2%;
+}
 b.btn2{
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
